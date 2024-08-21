@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Register for 10k coders
+        </legend>
+        <center>
+            <form action="./submit.html">
+                <pre>
+                <label for>upload image</label>
+                <img src="img.png" width="180" height="120">
+            
+                <label for="name">Enter your name:</label>
+                <input type="text" placeholder="enter your name" id="name" required>
+            
+                <label for="name">Enter your email</label>
+                <input type="email" placeholder="Enter your email" id="name" required>
+            
+                <label for>Education </label>
+                <select name="Education" id="Education" style="width: 170px;"required>
+                            <option value="">Choose from here</option>
+                            <option value="Btech">Btech</option>
+                        <option value="BE">BE</option>
+                        <option value="Degree">Degree</option>
+                        <option value="MCA">MCA</option>
+                    </select>
+            
+                <label>year of passed </label>
+                <select name="year" id="year" style="width: 170px; " required>
+                <option value="">choose year</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                    </select>
+            
+                <label for="loc">location</label>
+                <input type="text" list="location" style="width:170px;" required>
+                <datalist id="location">
+                    <option value="hyderabad">hyderabad</option>
+                        <option value="warangal">warangal</option>
+                        <option value="mahaboobnagar">mahaboobnagar</option>
+                        <option value="andhra pradesh">andhra pradesh</option>
+                    </datalist>
+            
+                <label>choose your courses</label>
+                <select name="courses" id="courses" style="width: 170px;" required>
+                <option value="">choose form below</option>
+                        <option value="java">java</option>
+                        <option value="python">python</option>
+                        <option value="c">c</option>
+                        <option value="c++">c++</option>
+                    </select>
+            
+                <label for="phn no"> phn no:</label>
+                <input type="text" placeholder="Enter number" id="phn no" required>
+            
+                <label for="male">male</label>
+                <input type="radio" name="male" id="male">
+            
+                <label for="male">female</label>
+                <input type="radio" name="male" id="female">
+            
+                <label for="box">do you want to be a devloper</label>
+                <input type="checkbox" id="box">
+            
+                
+                <button type="submit">submit</button>
+                 </form>
+        </center>
+    </fieldset>
+</body>
+</html>
